@@ -1,0 +1,2198 @@
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:1] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836380]: [success] (in 159 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:01:57 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:3] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836381]: [success] (in 183 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:02 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:5] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836382]: [success] (in 728 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:06 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:7] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836383]: [success] (in 2769 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:24 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:9] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836384]: [success] (in 202 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:35 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:11] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836385]: [failed] (in 1 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 72, in play_game
+    words = data.get(list(data.keys())[1])[0].get("word")
+            ^^^^^^^^
+AttributeError: 'Cursor' object has no attribute 'get'
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:40 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:11] in chat [private:1346008233]
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 72, in play_game
+    words = data.get(list(data.keys())[1])[0].get("word")
+            ^^^^^^^^
+AttributeError: 'Cursor' object has no attribute 'get'
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:40 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:11] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836385]: [failed] (in 1 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 72, in play_game
+    words = data.get(list(data.keys())[1])[0].get("word")
+            ^^^^^^^^
+AttributeError: 'Cursor' object has no attribute 'get'
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:43 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:11] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836385]: [failed] (in 1 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 72, in play_game
+    words = data.get(list(data.keys())[1])[0].get("word")
+            ^^^^^^^^
+AttributeError: 'Cursor' object has no attribute 'get'
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:47 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:11] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836385]: [failed] (in 1 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 72, in play_game
+    words = data.get(list(data.keys())[1])[0].get("word")
+            ^^^^^^^^
+AttributeError: 'Cursor' object has no attribute 'get'
+INFO:aiohttp.access:::1 [21/Nov/2023:12:02:56 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:11] in chat [private:1346008233]
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 72, in play_game
+    words = data.get(list(data.keys())[1])[0].get("word")
+            ^^^^^^^^
+AttributeError: 'Cursor' object has no attribute 'get'
+INFO:aiohttp.access:::1 [21/Nov/2023:12:03:12 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:11] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836385]: [failed] (in 1 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 72, in play_game
+    words = data.get(list(data.keys())[1])[0].get("word")
+            ^^^^^^^^
+AttributeError: 'Cursor' object has no attribute 'get'
+INFO:aiohttp.access:::1 [21/Nov/2023:12:03:45 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:15] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836389]: [success] (in 1650 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:04:36 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:17] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836390]: [success] (in 2533 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:07:00 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:19] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836391]: [success] (in 315 ms)
+INFO:aiohttp.access:::1 [21/Nov/2023:12:07:11 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:21] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836392]: [success] (in 729 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:43:50 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:23] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836393]: [success] (in 1410 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:07 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:25] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836394]: [success] (in 246 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:14 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:27] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836395]: [success] (in 110 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:20 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:29] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836396]: [success] (in 114 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:25 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:31] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836397]: [success] (in 436 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:29 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:33] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836398]: [success] (in 106 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:34 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:35] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836399]: [success] (in 106 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:38 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:37] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836400]: [success] (in 1845 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:44:54 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836401]: [failed] (in 31469 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:45:05 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836401]: [failed] (in 31021 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:45:37 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836401]: [failed] (in 31250 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:46:11 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836401]: [failed] (in 31420 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:46:47 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:39] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836403]: [success] (in 131 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:19 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:40] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836404]: [success] (in 425 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:19 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:41] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836405]: [success] (in 239 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:20 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:42] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836406]: [success] (in 142 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:21 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:43] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836407]: [success] (in 145 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:22 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:44] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836408]: [success] (in 112 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:22 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:50] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836409]: [success] (in 143 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:23 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:53] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342955638365] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbawls originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836401]: [failed] (in 31227 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:27 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836410]: [success] (in 398 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:58 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342806375434] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbells originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342806375434] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbells originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836402]: [failed] (in 31225 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:47:58 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342806375434] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbells originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342806375434] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbells originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836402]: [failed] (in 31005 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:48:30 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061342806375434] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbells originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061342806375434] from user [ID:1346008233] for message [ID:38] in chat [private:1346008233] with data: btnbells originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836402]: [failed] (in 31027 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:04:49:04 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:56] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836412]: [success] (in 347 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:02:39 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:58] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836413]: [success] (in 133 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:03:53 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:60] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836414]: [success] (in 131 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:04:43 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:62] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836415]: [failed] (in 1345 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 81, in word_finder
+    if int(id_level[i][0]) == speech_ind + 1:
+           ~~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:06 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:62] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836415]: [failed] (in 1093 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 81, in word_finder
+    if int(id_level[i][0]) == speech_ind + 1:
+           ~~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:08 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:62] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836415]: [failed] (in 1120 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 81, in word_finder
+    if int(id_level[i][0]) == speech_ind + 1:
+           ~~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:11 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:62] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836415]: [failed] (in 1520 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 81, in word_finder
+    if int(id_level[i][0]) == speech_ind + 1:
+           ~~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:17 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:62] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836415]: [failed] (in 1001 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 81, in word_finder
+    if int(id_level[i][0]) == speech_ind + 1:
+           ~~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:27 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:65] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836418]: [failed] (in 1126 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:43 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:65] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836418]: [failed] (in 1013 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:45 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:65] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836418]: [failed] (in 102 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f9920863850>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dictionary.cambridge.org', port=443): Max retries exceeded with url: /spellcheck/english-russian/?q=/addword (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9920863850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 80, in add_word
+    word_status = cDict.word_checker(word)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 102, in word_checker
+    r = requests.get(url, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dictionary.cambridge.org', port=443): Max retries exceeded with url: /spellcheck/english-russian/?q=/addword (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9920863850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:48 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:65] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836418]: [failed] (in 103 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f99206dc650>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dictionary.cambridge.org', port=443): Max retries exceeded with url: /spellcheck/english-russian/?q=/addword (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f99206dc650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 80, in add_word
+    word_status = cDict.word_checker(word)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 102, in word_checker
+    r = requests.get(url, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dictionary.cambridge.org', port=443): Max retries exceeded with url: /spellcheck/english-russian/?q=/addword (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f99206dc650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:aiohttp.access:::1 [22/Nov/2023:06:06:53 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:65] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836418]: [failed] (in 1001 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:07:01 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:65] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836418]: [failed] (in 1052 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:07:19 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:65] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836418]: [failed] (in 1067 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:06:07:53 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:70] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836423]: [success] (in 120 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:08:57 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:72] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836424]: [success] (in 117 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:08:59 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:74] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836425]: [success] (in 727 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:09:01 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:76] in chat [private:1346008233]
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836426]: [failed] (in 31564 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in add_word
+    await message.reply("Word: " + word + " was found and added successfully!")
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/types/message.py", line 1687, in reply
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:10:16 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:78] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836427]: [success] (in 206 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:10:59 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:80] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836428]: [success] (in 334 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:11:15 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:82] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836429]: [success] (in 118 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:11:19 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:84] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836430]: [success] (in 186 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:11:28 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:86] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836431]: [failed] (in 30037 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 96, in show_words
+    for i in data:
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1262, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1153, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1868, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1811, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 583, in _check_implicit_session_support
+    self._check_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 599, in _check_session_support
+    self._select_servers_loop(
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 269, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006), Timeout: 30s, Topology Description: <TopologyDescription id: 655d9b683ebc5c197a812a75, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-0k7raml-shard-00-00.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-01.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-02.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>]>
+INFO:aiohttp.access:::1 [22/Nov/2023:06:11:34 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:86] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836431]: [failed] (in 30202 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 96, in show_words
+    for i in data:
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1262, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1153, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1868, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1811, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 583, in _check_implicit_session_support
+    self._check_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 599, in _check_session_support
+    self._select_servers_loop(
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 269, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006), Timeout: 30s, Topology Description: <TopologyDescription id: 655d9b683ebc5c197a812a75, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-0k7raml-shard-00-00.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-01.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-02.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>]>
+INFO:aiohttp.access:::1 [22/Nov/2023:06:12:04 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:86] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836431]: [failed] (in 30078 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 96, in show_words
+    for i in data:
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1262, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1153, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1868, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1811, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 583, in _check_implicit_session_support
+    self._check_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 599, in _check_session_support
+    self._select_servers_loop(
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 269, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006), Timeout: 30s, Topology Description: <TopologyDescription id: 655d9b683ebc5c197a812a75, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-0k7raml-shard-00-00.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-01.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-02.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>]>
+INFO:aiohttp.access:::1 [22/Nov/2023:06:12:37 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:86] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836431]: [failed] (in 30055 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 96, in show_words
+    for i in data:
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1262, in next
+    if len(self.__data) or self._refresh():
+                           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/cursor.py", line 1153, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1868, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/mongo_client.py", line 1811, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 583, in _check_implicit_session_support
+    self._check_session_support()
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 599, in _check_session_support
+    self._select_servers_loop(
+  File "/usr/local/lib64/python3.11/site-packages/pymongo/topology.py", line 269, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006),SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006), Timeout: 30s, Topology Description: <TopologyDescription id: 655d9b683ebc5c197a812a75, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-0k7raml-shard-00-00.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-00.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-01.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-01.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>, <ServerDescription ('ac-0k7raml-shard-00-02.igouvvt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-0k7raml-shard-00-02.igouvvt.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1006)')>]>
+INFO:aiohttp.access:::1 [22/Nov/2023:06:13:12 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:86] in chat [private:1346008233]
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:87] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836432]: [success] (in 176 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:24:31 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:89] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836433]: [success] (in 623 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:24:35 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:90] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836434]: [success] (in 588 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:25:01 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:91] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836435]: [success] (in 642 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:25:29 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:92] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836436]: [success] (in 455 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:25:32 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary bot [@totally_new_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:121] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836465]: [success] (in 125 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:49:05 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:123] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836466]: [success] (in 191 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:49:09 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:125] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836467]: [success] (in 115 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:49:11 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:127] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836468]: [success] (in 125 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:49:15 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:129] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836469]: [success] (in 710 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:49:18 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:131] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836470]: [success] (in 2566 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:49:32 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:133] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836471]: [success] (in 540 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:06:49:58 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:136] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836473]: [success] (in 182 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:07:52:47 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:138] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836474]: [success] (in 182 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:07:53:02 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:140] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836475]: [success] (in 159 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:07:53:09 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:142] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836476]: [success] (in 1912 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:07:53:17 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061341497975085] from user [ID:1346008233] for message [ID:143] in chat [private:1346008233] with data: btnegg originally posted by user [ID:6911292449]
+WARNING:root:Shutting down..
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061341497975085] from user [ID:1346008233] for message [ID:143] in chat [private:1346008233] with data: btnegg originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836477]: [failed] (in 30922 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:07:53:29 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:144] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836479]: [success] (in 158 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:05:25 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:146] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836480]: [success] (in 139 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:05:32 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:148] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836481]: [success] (in 3490 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:05:55 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:149] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836482]: [success] (in 154 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:05:59 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 1300 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:06:12 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 3078 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:06:13 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 2034 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:06:19 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 6160 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:06:26 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 1125 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f9989400d90>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dictionary.cambridge.org', port=443): Max retries exceeded with url: /spellcheck/english-russian/?q=ggg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9989400d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 83, in handle_add_word
+    word_status = cDict.word_checker(word)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 102, in word_checker
+    r = requests.get(url, headers=headers)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dictionary.cambridge.org', port=443): Max retries exceeded with url: /spellcheck/english-russian/?q=ggg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9989400d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:aiohttp.access:::1 [22/Nov/2023:08:06:40 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 2075 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:06:58 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 3134 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    word_info = cDict.word_finder(word)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:07:32 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 4224 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    await message.reply(f"Word: {word} was found and added successfully!")
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:08:40 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:152] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836483]: [failed] (in 2115 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 257, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 86, in handle_add_word
+    await message.reply(f"Word: {word} was found and added successfully!")
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/CambridgeDictionaryAPI/CambridgeDictionaryAPI.py", line 75, in word_finder
+    data = {'_id': id_word[0][:-3][3:]}
+                   ~~~~~~~^^^
+IndexError: list index out of range
+INFO:aiohttp.access:::1 [22/Nov/2023:08:10:23 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:154] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836485]: [success] (in 137 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:19:54 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:156] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836486]: [success] (in 405 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:20:14 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:158] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836487]: [success] (in 126 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:22:01 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:160] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836488]: [success] (in 1 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:22:07 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:161] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836489]: [success] (in 1 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:24:24 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+WARNING:root:Shutting down..
+WARNING:root:Bye!
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:162] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836490]: [success] (in 228 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:08:54:25 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:164] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836491]: [success] (in 3585 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:09:05:50 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:166] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836492]: [success] (in 1474 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:09:08:07 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:168] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836493]: [success] (in 2040 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:09:09:21 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061344719358398] from user [ID:1346008233] for message [ID:169] in chat [private:1346008233] with data: btnfloor originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Unhandled callback query [ID:5781061344719358398] from user [ID:1346008233] for message [ID:169] in chat [private:1346008233] with data: btnfloor originally posted by user [ID:6911292449]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836494]: [failed] (in 31255 ms)
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_protocol.py", line 433, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+           ^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 139, in post
+    results = await self.process_update(update)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/webhook.py", line 190, in process_update
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 284, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/PycharmProjects/DictTeleBot-main/main.py", line 124, in process_callback_choice
+    await bot.answer_callback_query(callback_query.id)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/bot.py", line 2890, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/s23/.local/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:aiohttp.access:::1 [22/Nov/2023:09:10:25 +0000] "POST / HTTP/1.1" 500 245 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:170] in chat [private:1346008233]
+WARNING:root:Shutting down..
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836495]: [success] (in 33822 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:09:10:57 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
+INFO:aiogram.contrib.middlewares.logging:Received callback query [ID:5781061344719358398] from user [ID:1346008233] for message [ID:169] in chat [private:1346008233] with data: btnfloor originally posted by user [ID:6911292449]
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram:Bot: Dictionary_bot [@totally_unique_dictionary_bot]
+WARNING:aiogram:Updates were skipped successfully.
+ERROR:asyncio:unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-7' coro=<_run_app() done, defined at /usr/local/lib64/python3.11/site-packages/aiohttp/web.py:289> exception=OSError(98, "error while attempting to bind on address ('127.0.0.1', 5000): address already in use")>
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web.py", line 516, in run_app
+    loop.run_until_complete(main_task)
+  File "/usr/lib64/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web.py", line 415, in _run_app
+    await site.start()
+  File "/usr/local/lib64/python3.11/site-packages/aiohttp/web_runner.py", line 121, in start
+    self._server = await loop.create_server(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/asyncio/base_events.py", line 1525, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 5000): address already in use
+INFO:aiogram.contrib.middlewares.logging:Received message [ID:174] in chat [private:1346008233]
+INFO:aiogram.contrib.middlewares.logging:Process update [ID:241836498]: [success] (in 38269 ms)
+INFO:aiohttp.access:::1 [22/Nov/2023:09:12:15 +0000] "POST / HTTP/1.1" 200 153 "-" "-"
